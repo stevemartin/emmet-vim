@@ -1360,7 +1360,7 @@ let s:emmet_settings = {
 \            'cc:ie6': "<!--[if lte IE 6]>\n\t${child}|\n<![endif]-->",
 \            'cc:ie': "<!--[if IE]>\n\t${child}|\n<![endif]-->",
 \            'cc:noie': "<!--[if !IE]><!-->\n\t${child}|\n<!--<![endif]-->",
-\            'doc:5': "<!DOCTYPE html>\n"
+\            '!!': "<!DOCTYPE html>\n"
 \                     ."\n",
 \            'html:4t': "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n"
 \                    ."<html lang=\"${lang}\">\n"

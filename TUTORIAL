@@ -78,15 +78,15 @@ Tutorial for Emmet.vim
   select the lines, which include '<li>'
   ---------------------
   <ul>
-  	<li class="list1"></li>
-  	<li class="list2"></li>
-  	<li class="list3"></li>
+    <li class="list1"></li>
+    <li class="list2"></li>
+    <li class="list3"></li>
   </ul>
   ---------------------
   and then type '<c-y>m'
   ---------------------
   <ul>
-  	<li class="list1"></li><li class="list2"></li><li class="list3"></li>
+    <li class="list1"></li><li class="list2"></li><li class="list3"></li>
   </ul>
   ---------------------
 
@@ -95,7 +95,7 @@ Tutorial for Emmet.vim
   Move cursor in block
   ---------------------
   <div class="foo">
-  	<a>cursor is here</a>
+    <a>cursor is here</a>
   </div>
   ---------------------
   Type '<c-y>k' in insert mode.
@@ -115,7 +115,7 @@ Tutorial for Emmet.vim
   Move the cursor inside block
   ---------------------
   <div class="foo">
-  	cursor is here
+    cursor is here
   </div>
   ---------------------
   Type '<c-y>j' in insert mode.
@@ -134,19 +134,19 @@ Tutorial for Emmet.vim
   Move cursor inside the block
   ---------------------
   <div>
-  	hello world
+    hello world
   </div>
   ---------------------
   Type '<c-y>/' in insert mode.
   ---------------------
   <!-- <div>
-  	hello world
+    hello world
   </div> -->
   ---------------------
   Type '<c-y>/' in there again.
   ---------------------
   <div>
-  	hello world
+    hello world
   </div>
   ---------------------
 
@@ -170,9 +170,9 @@ Tutorial for Emmet.vim
   Type '<c-y>A'
   ---------------------
   <blockquote class="quote">
-  	<a href="http://github.com/">Secure source code hosting and collaborative development - GitHub</a><br />
-  	<p>How does it work? Get up and running in seconds by forking a project, pushing an existing repository...</p>
-  	<cite>http://github.com/</cite>
+    <a href="http://github.com/">Secure source code hosting and collaborative development - GitHub</a><br />
+    <p>How does it work? Get up and running in seconds by forking a project, pushing an existing repository...</p>
+<cite>http://github.com/</cite>
   </blockquote>
   ---------------------
 
@@ -209,4 +209,11 @@ Tutorial for Emmet.vim
   \    'extends' : 'html',
   \  },
   \}
+  ---------------------
+
+16. Declare an html5 doctype
+  Type the abbreviation as '!!!' and type '<c-y>,'.
+
+  ---------------------
+  <!DOCTYPE html>
   ---------------------

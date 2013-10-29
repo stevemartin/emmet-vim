@@ -238,7 +238,7 @@ finish
           'result': "<div id=\"main\">\n\t<div id=\"sub\"></div>\n</div>\n",
         },
         {
-          'query': "doc:5",
+          'query': "!!!",
           'result': "<!DOCTYPE html>\n\n"
           },
         {
